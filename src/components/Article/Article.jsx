@@ -7,7 +7,7 @@ import TitleArticle from "../TitleArticle/TitleArticle";
 export default function Article({ id, image, author, date, title, abstract, article, Class, classTitle, classFont, classImg }) {
     const navigate = useNavigate();
     const detailPage = (id) => {
-        navigate(`/detail/${id}`);
+        navigate(`/Task-6-Adv/detail/${id}`);
     }
     return (
         <div className={`cursor-pointer ${Class}`} onClick={() => detailPage(id)} >

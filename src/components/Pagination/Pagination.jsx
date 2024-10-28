@@ -75,7 +75,7 @@ export default function Pagination() {
                 <ArrowLeft color={svgStrokeColor} />
                 Previous
             </button>
-            <div className="flex gap-0.5">{generatePages()}</div>
+            <div className="flex gap-0.5 flex-wrap justify-center">{generatePages()}</div>
             <button
                 className="flex gap-2 dark:text-white"
                 onClick={() => dispatch(nextPage())}

@@ -40,6 +40,7 @@ export default function NavBar({ data }) {
                         {list.map((li, index) => (
                             <li key={index} className=" relative">
                                 <NavLink to={li.link}
+                                    end
                                     className={({ isActive }) =>
                                         `dark:text-white pb-1 ${isActive ?
                                             'after:w-full' : 'after:w-0'} 
@@ -65,6 +66,7 @@ export default function NavBar({ data }) {
                         {list.map((li, index) => (
                             <li key={index} className=" relative">
                                 <NavLink to={li.link}
+                                    end
                                     className={({ isActive }) =>
                                         `dark:text-white pb-1 text-lg
                                          ${isActive ? 'after:w-full' : 'after:w-0'} 

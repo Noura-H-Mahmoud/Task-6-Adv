@@ -13,7 +13,7 @@ export default function NewlattersPage() {
           para='Newlatters' h2='Stories and interviews' text='Subscribe to learn about new product features, the latest in technology, solutions, and updates.'
         />
         <div className="pt-[38px] md:pt-[60px]">
-          <Link to='/Task-6-Adv/' className="text-2xl font-semibold pb-8">All blog posts</Link>
+          <Link to='/Task-6-Adv/' className="text-2xl font-semibold pb-8 dark:text-white">All blog posts</Link>
           <Articles articles={articles} className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-8 pb-[50px] md:pb-[72px] lg:pb-30 col-span-1 custom-container gap-8 lg:gap-8  md:gap-4' classImg='mb-8 h-[240px]' Class='w-full' />
         </div>
       </div>
